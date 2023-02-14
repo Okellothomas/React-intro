@@ -7,7 +7,7 @@ export default function Footer() {
             <div>
                 <a href="www.facebook.com"> <FaFacebook /></a>
                 <a href="www.twitter.com"><FaTwitter /></a>
-                <a href="www.instagram.com"><FaTwitter /></a>
+                <a href="www.instagram.com"><FaInstagram /></a>
             </div>
             <p> &copy, 2023 All rights Reserved!</p>
         </footer>
