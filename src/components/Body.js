@@ -11,7 +11,7 @@ import "../index.css"
 
 export default function Body() {
   return (
-    <Container>
+    <Container fluid>
       <Row>
       <Col>
             <Card className="card">
