@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Carousel from "./components/Carousel";
+import MyNavbar from "./components/Navbar";
+import MyCarousel from "./components/Carousel";
 import Footer from "./components/Footer";
 import Body from "./components/Body";
 
 export default function App() {
     return (
         <div>
-            <Navbar />
-            <Carousel />
+            <MyNavbar />
+            <MyCarousel />
             <Body />
             <Footer />
         </div>

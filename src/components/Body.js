@@ -5,14 +5,17 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import fish from "../images/fish.jpg"
+import car from "../images/car.jpg"
+import "../index.css"
 
 export default function Body() {
   return (
     <Container>
       <Row>
       <Col>
-            <Card style={{ width: '100%' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card className="card">
+            <Card.Img variant="top" src={car} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -24,8 +27,8 @@ export default function Body() {
             </Card>      
         </Col>
         <Col>
-            <Card style={{ width: '100%' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card className="card">
+            <Card.Img variant="top" src={fish} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>

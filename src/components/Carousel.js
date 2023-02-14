@@ -6,7 +6,7 @@ import "../index.css"
 
 import Carousel from 'react-bootstrap/Carousel';
 
-export default function Carousel() {
+export default function MyCarousel() {
   return (
     <Carousel fade>
       <Carousel.Item>
